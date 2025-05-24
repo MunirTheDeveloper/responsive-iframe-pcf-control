@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="NghiemDoan" constructor="responsiveIframePCFControl" display-name-key="responsiveIframePCFControl_Display_Key" description-key="responsiveIframePCFControl_Desc_Key" control-type="standard">
+    <property name="source" usage="bound" of-type="SingleLine.Text" required="true" display-name-key="Source_Display_Key" description-key="Source_Desc_Key" />
+    <property name="iframeWidth" usage="input" of-type="SingleLine.Text" required="false" default-value="100%" display-name-key="IframeWidth_Display_Key" description-key="IframeWidth_Desc_Key" />
+    <property name="iframeHeight" usage="input" of-type="SingleLine.Text" required="false" default-value="600px" display-name-key="IframeHeight_Display_Key" description-key="IframeHeight_Desc_Key" />
+
+    <feature-usage>
+      <uses-feature name="Device.captureVideo" required="false" />
+      <uses-feature name="Device.captureAudio" required="false" />
+    </feature-usage>
+
+    <resources>
+      <css path="css/responsiveIframePCFControl.css" order="1" />
+      <resx path="strings/responsiveIframePCFControl.resx" />
+    </resources>
+  </control>
+</manifest>
