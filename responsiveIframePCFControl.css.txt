@@ -1,0 +1,7 @@
+&lt;pre>&lt;code class="css">/* Reset some default styles */
+iframe {
+margin: 0;
+padding: 0;
+border: 0;
+}
+&lt;/code>&lt;/pre>
